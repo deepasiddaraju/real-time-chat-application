@@ -13,7 +13,7 @@ Chat-Bot is a full-stack realtime chat application built with **Flask (Python)**
 - 🗄️ MySQL database integration for persistent storage
 
 ## 📂 Project Structure
-chat-bot/
+chat-bot/ \n
 ├── backend/                 # Flask + Socket.IO + MySQL backend
 │   ├── app.py
 │   ├── models.py
