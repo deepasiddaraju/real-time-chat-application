@@ -37,32 +37,41 @@ chat-bot/
    cd backend
 
 2. Create and activate a virtual environment:
+   ```bash
    python -m venv my3env
    source my3env/bin/activate   # Linux/Mac
    my3env\Scripts\activate      # Windows
 
-3. Install dependencies:
+4. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-4. Run the Flask server:
+6. Run the Flask server:
+   ```bash
    python app.py
 
 ### Frontend (React)
 1. Navigate to the frontend folder:
+   ```bash
    cd frontend
 
-2. Install dependencies:
+3. Install dependencies:
+   ```bash
    npm install
 
-3. Start the React development server:
+5. Start the React development server:
+   ```bash
    npm start
 
-4. Open http://localhost:3000 in your browser. 
+7. Open http://localhost:3000 in your browser. 
 
 ## 🖼️ Screenshots
 ![Register Page](Screenshots/register.png)
+
 ![Login Page](Screenshots/login.png)
+
 ![Type Indicator](Screenshots/typeindicator.png)
+
 ![Dashboard](Screenshots/dashboard.png)
 
 ## 📊 Demo Highlights
