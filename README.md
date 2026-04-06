@@ -14,20 +14,46 @@ Chat-Bot is a full-stack realtime chat application built with **Flask (Python)**
 
 ## 📂 Project Structure
 chat-bot/
-│
-├── backend/        # Flask + Socket.IO + MySQL
+├── backend/                 # Flask + Socket.IO + MySQL backend
 │   ├── app.py
+│   ├── models.py
 │   ├── requirements.txt
-│   └── my3env/     # ignored in .gitignore
+│   └── test_socket.py
 │
-├── frontend/       # React app
+├── frontend/                # React frontend
+│   ├── public/
+│   │   ├── default-avatar.png
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
 │   ├── src/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   ├── ChatBox.js
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── logo.svg
+│   │   ├── reportWebVitals.js
+│   │   └── setupTests.js
 │   ├── package.json
-│   └── node_modules/  # ignored in .gitignore
+│   └── package-lock.json
 │
-├── database/       # SQL schema and migrations
-├── README.md       # Project documentation
-└── .gitignore      # Combined rules for frontend + backend
+├── database/                # SQL schema and migrations
+│   └── schema.sql
+│
+├── Screenshots/             # Demo screenshots
+│   ├── dashboard.png
+│   ├── login.png
+│   ├── register.png
+│   └── typeindicator.png
+│
+├── README.md                # Project documentation
+└── .gitignore               # Ignore rules (frontend + backend)
+
 
 ## ⚙️ Setup Instructions
 
